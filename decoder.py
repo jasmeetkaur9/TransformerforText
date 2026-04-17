@@ -138,7 +138,7 @@ class Decoder(torch.nn.Module):
 
 
 model = Decoder(params)
-model.learn(epochs=30)
+model.learn(epochs=30000)
 input_string = "This story is set in the prestine and slow movements of a small town. The sun had just begun to set over the quiet town, casting long shadows across the narrow streets. \
                 The air was still, and there was a strange feeling that something was about to happen."
 
